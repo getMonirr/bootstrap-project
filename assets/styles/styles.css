@@ -1,0 +1,41 @@
+.profile-card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.card-design {
+    background: #c0392b;
+    background: linear-gradient(to right, #8e44ad, #c0392b); 
+
+}
+.profile-picture {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 500px;
+    padding: 5px;
+    background-color: white;
+    object-fit: cover;
+    object-position: center;
+}
+.profile-card .card-title {
+    padding-top: 80px;
+}
+.profile-card .card-text {
+    padding: 10px 15px;
+}
+.card.profile-card,.card.profile-card .card-footer {
+    border-radius: 20px !important;
+}
+.card.profile-card img:first-child {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.card.profile-card .card-footer i {
+    cursor: pointer;
+}
