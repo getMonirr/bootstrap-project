@@ -39,3 +39,11 @@
 .card.profile-card .card-footer i {
     cursor: pointer;
 }
+.login-section input[type="email"] ,.login-section input[type="password"]{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+}
+.sign-up-btn button {
+    padding: 10px 30px;
+}
